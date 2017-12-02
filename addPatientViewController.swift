@@ -218,13 +218,16 @@ class addPatientViewController: UIViewController, UITextViewDelegate {
         super.viewDidLoad()
         
         enterPatient?.delegate = self
-        
-        initialwarning.lineBreakMode = .byWordWrapping
-        initialwarning.numberOfLines = 0
-        
-        
     
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        initialwarning.lineBreakMode = .byWordWrapping
+        initialwarning.numberOfLines = 0
+        initialwarning.adjustsFontSizeToFitWidth = true
+        initialwarning.minimumScaleFactor = 0.2
     }
     
     
