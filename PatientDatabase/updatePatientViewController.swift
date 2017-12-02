@@ -25,16 +25,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -53,16 +53,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -81,16 +81,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -109,16 +109,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -137,16 +137,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -165,16 +165,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
             
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
             warning.text = ""
@@ -304,16 +304,16 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
         
         if patient.cardiac1 == 1 && patient.cardiac2 == 1
         {
-        warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease. Please perform additional evaluation."
+        warning.text = "The symptoms indicate that your patient may have a cardiac infection or disease."
         }
         else if patient.resp1 == 1 && patient.resp2 == 1
         {
 
-            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease. Please perform additional evaluation."
+            warning.text = "The symptoms indicate that your patient may have a respiratory infection or disease."
         }
         else if patient.gi1 == 1 && patient.gi2 == 1
         {
-        warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease. Please perform additional evaluation."
+        warning.text = "The symptoms indicate that your patient may have a gastrointestinal infection or disease."
         }
         else{
         warning.text = ""
