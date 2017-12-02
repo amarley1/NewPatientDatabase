@@ -187,7 +187,8 @@ class updatePatientViewController: UIViewController, UITextViewDelegate {
     
     var patient: Patient!
 
-    @IBOutlet var entryText: UITextView!
+    @IBOutlet weak var entryText: UITextField!
+    
 
     //dismisses update screen when cancel button is pressed
     @IBAction func dismiss(_ sender: Any) {

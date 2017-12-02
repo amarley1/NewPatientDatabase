@@ -182,9 +182,9 @@ class addPatientViewController: UIViewController, UITextViewDelegate {
         }
     }
     
+    @IBOutlet weak var enterPatient: UITextField!
     
-    @IBOutlet weak var enterPatient: UITextView!
-    
+
     //@IBOutlet var enterPatient: UITextView?
 
     @IBAction func cancel(_ sender: Any) {
@@ -217,8 +217,7 @@ class addPatientViewController: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        enterPatient?.delegate = self
-    
+         
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -228,6 +227,8 @@ class addPatientViewController: UIViewController, UITextViewDelegate {
         initialwarning.numberOfLines = 0
         initialwarning.adjustsFontSizeToFitWidth = true
         initialwarning.minimumScaleFactor = 0.2
+        
+      
     }
     
     
